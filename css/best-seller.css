@@ -1,0 +1,582 @@
+@font-face {
+    font-family: fira;
+    src: url(../font/Fira_Sans/FiraSans-Regular.ttf);
+}
+
+body {
+    font-family: fira;
+}
+
+.menu-logo img.logo {
+    vertical-align: middle;
+    width: 15%;
+}
+
+.menu {
+    text-decoration: none;
+    display: flex;
+}
+
+.data-menu {
+    display: flex;
+}
+
+a.color {
+    color: #333;
+    font-weight: 500;
+    display: block;
+    height: 57px;
+    line-height: 57px;
+    position: relative;
+    text-decoration: none;
+}
+
+a.color::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: -10px;
+    height: 2px;
+    width: 0px;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.megamenu {
+    letter-spacing: 1.3px;
+}
+
+.icon {
+    width: 134px;
+}
+
+a.icon-header {
+    color: #333;
+}
+
+.container-1 {
+    background-color: #f7f7f7;
+    padding: 60px 5% 40px;
+}
+
+.container {
+    width: 1405px;
+    height: 3700px;
+    padding-top: 50px;
+}
+
+.line {
+    padding-top: 38px;
+    margin-top: 58px;
+    font-size: 12px;
+    border-top: 1px solid #bbb;
+    color: #acacac;
+}
+
+.h4,
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.mall {
+    width: 297px;
+    height: 244px;
+}
+
+p.about {
+    margin-right: 47px;
+    color: #acacac;
+}
+
+a.icon {
+    color: #808080;
+}
+
+
+
+.menu {
+    text-decoration: none;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid #ececec;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    transition: all ease-in-out 0.3s;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 1px solid #333;
+}
+
+.data-menu {
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a.icon-header {
+    color: #333;
+}
+
+a.color {
+    color: #333;
+    font-weight: 500;
+    display: block;
+    height: 57px;
+    line-height: 57px;
+    position: relative;
+    text-decoration: none;
+}
+
+a.color::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: -10px;
+    height: 2px;
+    width: 0px;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+a.color:hover::after {
+    width: 115%;
+}
+
+a.color.data:hover::after {
+    width: 180%;
+}
+
+a.color.action:hover::after {
+    width: 200%;
+}
+
+a.color.memo:hover::after {
+    width: 125%;
+}
+
+.icon {
+    width: 134px;
+}
+
+i {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.megamenu {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+img.logo {
+    vertical-align: middle;
+    width: 82%;
+}
+
+.megamenu {
+    letter-spacing: 1.3px;
+}
+
+a.icon {
+    color: #808080;
+}
+
+.mall {
+    width: 297px;
+    height: 244px;
+}
+
+
+
+.container-1 {
+    background-color: #f7f7f7;
+    padding: 60px 5% 40px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h4,
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+p.about {
+    margin-right: 47px;
+    color: #acacac;
+}
+
+.line {
+    padding-top: 38px;
+    margin-top: 58px;
+    font-size: 12px;
+    border-top: 1px solid #bbb;
+    color: #acacac;
+}
+
+.link {
+    width: 100%;
+    margin-top: 58px;
+}
+
+#vung2 {
+    display: none;
+}
+
+p.tag {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    font-size: x-small;
+    padding: 8px;
+    background-color: #c1272d;
+    color: #ffffff;
+    text-align: center;
+    width: 37px;
+    margin: 0;
+}
+
+
+.imgs>img.banner {
+    display: block;
+    width: 1519px;
+    height: 700px;
+    padding-top: 58px;
+}
+
+.best-seller {
+    height: 1330px;
+    width: 1536px;
+    padding-top: 50px;
+}
+
+.col-md-3.wb-1 span {
+    background-image: url(../img/sp18.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-2 span {
+    background-image: url(../img/sp19.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-3 span {
+    background-image: url(../img/sp20.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-4 span {
+    background-image: url(../img/sp21.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-5 span {
+    background-image: url(../img/sp22.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-6 span {
+    background-image: url(../img/sp23.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-7 span {
+    background-image: url(../img/sp24.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-8 span {
+    background-image: url(../img/sp25.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-9 span {
+    background-image: url(../img/sp1.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-10 span {
+    background-image: url(../img/sp2.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-11 span {
+    background-image: url(../img/sp3.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-12 span {
+    background-image: url(../img/sp4.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-13 span {
+    background-image: url(../img/h29.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-14 span {
+    background-image: url(../img/h42.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-15 span {
+    background-image: url(../img/sp5.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-16 span {
+    background-image: url(../img/sp8.jpeg);
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+
+.col-md-3.wb-17 span {
+    background-image: url(../img/h32.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-18 span {
+    background-image: url(../img/h28.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-19 span {
+    background-image: url(../img/h27.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-20 span {
+    background-image: url(../img/h30.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-21 span {
+    background-image: url(../img/h38.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-22 span {
+    background-image: url(../img/h18.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-23 span {
+    background-image: url(../img/h19.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-24 span {
+    background-image: url(../img/h20.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-25 span {
+    background-image: url(../img/h22.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-26 span {
+    background-image: url(../img/sp10.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-27 span {
+    background-image: url(../img/sp11.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+.col-md-3.wb-28 span {
+    background-image: url(../img/h52.jpeg);
+    width: 100%;
+    width: 330px;
+    height: 415px;
+    display: block;
+    padding-top: 100%;
+    background-size: cover;
+}
+
+p.tag-row {
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    font-size: x-small;
+    padding: 8px;
+    background-color: #c1272d;
+    color: #ffffff;
+    text-align: center;
+    width: 37px;
+    margin: 0;
+}
+
+.info .name {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.price-row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    font-weight: 700;
+    color: #000000;
+    height: 17px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+p.discount-row {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #aeaeae;
+}
+
+.color-row {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #aeaeae;
+    font-weight: 600;
+}
+
+.info {
+    padding-top: 10px;
+}
